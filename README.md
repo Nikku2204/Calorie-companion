@@ -2,17 +2,15 @@
 
 Track your calories in a few snaps, with an AI coach to keep your meals on plan.
 
-Part of a weekend app series: one small, genuinely novel build per weekend. No roadmap, no scope creep, no stakeholders, just a silly idea and a Sunday night deadline.
-
 Built as a single React file. Every smart feature is powered by Claude, called straight from inside the app.
 
 ---
 
 ## Highlights
 
-**A home screen with a pulse.** A massive glowing "DAY N OF YOUR JOURNEY" header that increments off your real start date, a flickering ember streak chip, a calorie room ring, and floating macro pills that fill as you log.
+**A home screen with a pulse.** A "DAY N OF YOUR JOURNEY" header that increments off your real start date, a streak chip, a calorie room ring, and floating macro pills that fill as you log.
 
-**Two day modes that flex with your training.** A Rest day / Workout day toggle that re-themes the whole screen, cool and calm for recovery, warm ember for training. Workout days add your session burn on top of the baseline, so harder days get more fuel. Both targets are editable right from the home screen with a tap.
+**Two day modes that flex with your training.** A Rest day / Workout day toggle that re-themes the whole screen. Workout days add your session burn on top of the baseline, so harder days get more fuel. Both targets are editable right from the home screen with a tap.
 
 **A meal coach you actually talk to.** Brainstorm meals in plain language. When you settle on one, a "Log meal" button appears right there in the chat stream and drops it straight onto your dashboard. You can also just type edits like "change my lunch to 400" and the UI updates itself.
 
@@ -31,7 +29,7 @@ Built as a single React file. Every smart feature is powered by Claude, called s
 
 ## How the AI works
 
-The whole app is "Claude inside Claude". It calls Anthropic's Claude API (Claude Sonnet) directly from the client to power chat, vision and natural language editing.
+The whole app is "Claude inside Claude". It calls Anthropic's Claude API directly from the client to power chat, vision and natural language editing.
 
 **A structured side channel inside a normal chat.** The meal coach replies conversationally, but when a meal is finalised or an edit is requested it appends a hidden, delimited action block at the end of its reply:
 
