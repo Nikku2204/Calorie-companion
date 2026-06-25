@@ -23,7 +23,7 @@ Built as a single React file. Every smart feature is powered by Claude, called s
   </tr>
   <tr>
     <td width="50%"><img src="staples1.png" alt="Staples library" width="100%"><br><sub><b>Staples</b> &middot; save go-tos for one-tap logging</sub></td>
-    <td width="50%"></td>
+    <td width="50%"><img src="insights1.png" alt="Weekly Insights" width="100%"><br><sub><b>Staples</b> &middot; Days showing up, consistency, variety, a seven day chart logging</sub></td>
   </tr>
 </table>
 
