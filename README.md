@@ -2,7 +2,7 @@
 
 Track your calories in a few snaps, with an AI coach that plans meals, looks things up, and logs straight from the chat.
 
-### [Try it live])https://claude.ai/public/artifacts/edc94926-5362-4540-a43f-ee80836684c3
+### [Try it live https://claude.ai/public/artifacts/edc94926-5362-4540-a43f-ee80836684c3])
 
 Part of a weekend app series: one small, genuinely novel build per weekend. No roadmap, no scope creep, no stakeholders, just a silly idea and a Sunday night deadline.
 
